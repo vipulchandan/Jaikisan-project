@@ -25,10 +25,10 @@ status - string - ACTIVE / INACTIVE
 ```
 
 ### Card collection field:
-Field Type Description
-cardNumber string Auto_increment e.g: C001
-cardType String [REGULAR/SPECIAL]
-customerName string
-status string [ACTIVE/INACTIVE] Default: ACTIVE
-vision string
-customerID string Reference from customer
+```
+cardNumber - string - Auto_increment e.g: C001
+cardType - String - [REGULAR/SPECIAL]
+customerName - string
+status - string - [ACTIVE/INACTIVE] Default: ACTIVE
+vision - string
+customerID - string - Reference from customer
