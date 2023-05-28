@@ -24,7 +24,7 @@ router.get('/test', (req, res) => {
 })
 
 // Create new customer [POST]
-router.post('/create', createCustomer);
+router.post('/createCustomer', createCustomer);
 
 // Login Customer [POST]
 // router.post('/login', login);
